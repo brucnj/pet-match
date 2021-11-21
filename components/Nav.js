@@ -1,8 +1,11 @@
+import Image from 'next/image'
+import logo from '../public/logo-branco.svg'
+
 const Nav = () =>{
     return(
         <div class="navbar mb-2 z-10 shadow-lg h-24 text-neutral-content" style={{ background: 'transparent' }}>
             <div class="px-10 mx-2 navbar-start">
-                <span class="text-lg font-bold text-white"> PetMatch </span>
+                <Image src={logo} width={65} height={65} />
             </div>
             <div class="hidden px-2 mx-2 navbar-center md:flex">
                 <div class="flex items-stretch text-white">

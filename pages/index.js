@@ -94,7 +94,7 @@ export default function Home() {
           <div className="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
             <div className="relative">
               <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://images.unsplash.com/photo-1465310477141-6fb93167a273?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;h=1700&amp;q=80" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
+                <img src="https://doctorzoo.com.br/wp-content/uploads/2015/03/cachorro_comendo.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
               </a>
               <div className="relative w-full mt-5">
                 <a href="#" className="block pb-5 mb-3 border-b hover:underline">
@@ -108,7 +108,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://images.unsplash.com/photo-1577095972574-2fbdcf60c8ef?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;h=1700&amp;q=80" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
+                <img src="https://www.10wallpaper.com/wallpaper/1366x768/1311/black_cat-Animal_photo_wallpaper_1366x768.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
               </a>
               <div className="relative mt-5">
                 <a href="#" className="block pb-5 mb-3 border-b hover:underline">
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <div className="relative">
               <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://images.unsplash.com/photo-1462651567147-aa679fd1cfaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;ixlib=rb-1.2.1&amp;auto=format&amp;fit=crop&amp;w=2550&amp;h=1700&amp;q=80" className="object-cover w-full h-64 transition-all duration-300 ease-out group-hover:scale-110" alt="" />
+                <img src="https://img.freepik.com/fotos-gratis/homem-veterinario-novo-com-o-estetoscopio-jogando-com-um-cao-pequeno-bonito-cinco-altos-fundo-branco-interior_139317-2119.jpg?size=626&ext=jpg" className="object-cover w-full h-64 transition-all duration-300 ease-out group-hover:scale-110" alt="" />
               </a>
               <div className="relative mt-5">
                 <a href="#" className="block pb-5 mb-3 border-b hover:underline">

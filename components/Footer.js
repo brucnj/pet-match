@@ -1,3 +1,6 @@
+import Image from 'next/image'
+import logo from '../public/logo-preenchido.svg'
+
 const Footer = () => {
     return (
         <section class="w-full bg-gray-100">
@@ -5,7 +8,7 @@ const Footer = () => {
           <div class="grid grid-cols-2 gap-10 mb-3 md:grid-cols-3 lg:grid-cols-12 lg:gap-20">
             <div class="col-span-3">
               <a href="#_" class="text-xl font-black leading-none select-none logo">
-                <img src="https://placekitten.com/80/80" />
+                <Image src={logo} width={100} height={100} />
               </a>
               <p class="my-4 text-xs leading-normal text-gray font-light">
                 "Nem todo o ouro do mundo chega perto do valor de ter um animal te amando"
