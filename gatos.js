@@ -1,0 +1,22 @@
+export const gatos = [
+    {
+      image:
+        "https://www.fiat.com.br/content/dam/fiat/home/fiat-pulse/golive/banner_home_pulse_desktop.jpg",
+    },
+    {
+      image:
+        "https://www.fiat.com.br/content/dam/fiat/500e/banner_home_poslive_desktop.jpg",
+    },
+    {
+      image:
+        "https://www.fiat.com.br/content/dam/fiat/comunicados/banner-fraude-whats-desk.png",
+    },
+    {
+      image:
+        "https://www.fiat.com.br/content/dam/fiat/home/mobi-trekking/tablet.png",
+    },
+    {
+      image:
+        "https://www.fiat.com.br/content/dam/fiat/home/toro-2022/banner_lan%C3%A7amento_nova_toro_desk.jpg",
+    },
+  ];

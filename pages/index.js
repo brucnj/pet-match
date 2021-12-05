@@ -1,4 +1,4 @@
-import Head from 'next/head'
+import Link from 'next/link'
 
 export default function Home() {
   const hero = {
@@ -11,7 +11,6 @@ export default function Home() {
 
   return (
     <div>
-      {/* FAZER MOBILE */}
       <div className="z-0 flex w-full min-h-screen sm:align-middle -mt-28 hero-border" style={hero}>
           <div className="container mx-auto px-14 sm:px-0 sm:ml-56 sm:text-left text-neutral-content">
             <div className="max-w-md text-white">
@@ -30,32 +29,36 @@ export default function Home() {
             <p className="w-3/4 mx-auto text-base font-light">Aqui é simplesmente um banco de dados, cheio de animais que querem ser adotados, comece a sua procura agora mesmo!</p>
           </div>
           <div className="container px-10 sm:px-0 sm:mx-auto sm:inline-flex">
-            <a href="#_" className="flex flex-col p-6 mb-8 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow sm:mb-0 hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
-              <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-secondary lg:h-20 lg:w-20">
-                <img src="https://img.icons8.com/pastel-glyph/50/000000/cat--v3.png" />
-              </div>
-              <div className="flex-1">
-                <h5 className="mt-1 mb-2 text-xl font-bold lg:text-2xl">Gatos</h5>
-                <p className="mb-6 text-lg font-light text-gray-600"> Venha ver quais gatos precisam de uma casa nova!</p>
-                <span className="flex items-center text-lg font-bold text-secondary">
-                  Conhecer os gatinhos
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                </span>
-              </div>
-            </a>
-            <a href="#_" className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
-              <div className="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-accent rounded-xl lg:h-20 lg:w-20">
-                <img src="https://img.icons8.com/pastel-glyph/64/000000/dog--v5.png" />
-              </div>
-              <div className="flex-1">
-                <h5 className="mt-1 mb-2 text-xl font-bold lg:text-2xl">Cachorros</h5>
-                <p className="mb-6 text-lg font-light text-gray-600">Venha ver quais cachorros precisam de uma casa nova!</p>
-                <span className="flex items-center text-lg font-bold text-accent">
-                  Conhecer os cachorrinhos
-                  <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                </span>
-              </div>
-            </a>
+            <Link href='/gatos'>
+              <a className="flex flex-col p-6 mb-8 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow sm:mb-0 hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
+                <div className="flex items-center justify-center w-16 h-16 rounded-xl bg-secondary lg:h-20 lg:w-20">
+                  <img src="https://img.icons8.com/pastel-glyph/50/000000/cat--v3.png" />
+                </div>
+                <div className="flex-1">
+                  <h5 className="mt-1 mb-2 text-xl font-bold lg:text-2xl">Gatos</h5>
+                  <p className="mb-6 text-lg font-light text-gray-600"> Venha ver quais gatos precisam de uma casa nova!</p>
+                  <span className="flex items-center text-lg font-bold text-secondary">
+                    Conhecer os gatinhos
+                    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </span>
+                </div>
+              </a>
+            </Link>
+            <Link href="/cachorros">
+              <a href="#_" className="flex flex-col p-6 space-y-6 transition-all duration-500 bg-white border border-indigo-100 rounded-lg shadow hover:shadow-xl lg:p-8 lg:flex-row lg:space-y-0 lg:space-x-6">
+                <div className="flex items-center justify-center w-16 h-16 border border-indigo-200 shadow-inner bg-accent rounded-xl lg:h-20 lg:w-20">
+                  <img src="https://img.icons8.com/pastel-glyph/64/000000/dog--v5.png" />
+                </div>
+                <div className="flex-1">
+                  <h5 className="mt-1 mb-2 text-xl font-bold lg:text-2xl">Cachorros</h5>
+                  <p className="mb-6 text-lg font-light text-gray-600">Venha ver quais cachorros precisam de uma casa nova!</p>
+                  <span className="flex items-center text-lg font-bold text-accent">
+                    Conhecer os cachorrinhos
+                    <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </span>
+                </div>
+              </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -138,7 +141,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full py-20 bg-white sm:py-20">
+      <section className="w-full py-10 bg-white sm:py-20">
         <h2 className="mx-auto text-4xl font-bold text-center mb-14">Siga para novidades</h2>
         <div className="container inline-flex px-10 mx-auto">
           <div className="hidden w-1/4 sm:block">
