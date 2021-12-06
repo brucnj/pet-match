@@ -16,7 +16,9 @@ export default function Home() {
             <div className="max-w-md text-white">
               <h1 className="mb-5 text-4xl font-bold sm:text-5xl">Precisa de um amiguinho?</h1>
               <p className="mb-5">Por aqui, você consulta ONGs, filtra animais e veja qual se encaixaria melhor com você!</p>
-              <button className="w-full text-center sm:w-2/4 btn btn-primary px-7">Pesquise aqui!</button>
+              <Link href="/gatos">
+                <a className="w-full text-center sm:w-2/4 btn btn-primary px-7">Encontre aqui!</a>
+              </Link>
             </div>
         </div>
       </div>
@@ -75,10 +77,12 @@ export default function Home() {
                   Se você conseguir manter bons cuidados ao animal, tudo que ele lhe dará em troca será uma felicidade sincera e poderosa
                 </p>
                 <div className="relative flex flex-col sm:flex-row sm:space-x-4">
-                  <a href="#_" className="flex items-center px-6 py-3 mb-3 text-lg text-center text-white transition-all rounded-md bg-secondary sm:mb-0 hover:bg-opacity-80 sm:w-auto">
-                    Veja os animais
-                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                  </a>
+                  <Link href="/cachorros">
+                    <a className="flex items-center px-6 py-3 mb-3 text-lg text-center text-white transition-all rounded-md bg-secondary sm:mb-0 hover:bg-opacity-80 sm:w-auto">
+                      Veja os animais
+                      <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -95,48 +99,56 @@ export default function Home() {
         <div className="px-8 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 ">
           <h2 className="pb-10 text-4xl font-bold">Últimos Posts</h2>
           <div className="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
-            <div className="relative">
-              <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://doctorzoo.com.br/wp-content/uploads/2015/03/cachorro_comendo.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
-              </a>
-              <div className="relative w-full mt-5">
-                <a href="#" className="block pb-5 mb-3 border-b hover:underline">
-                  <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Qual a importância das rações de animais</h2>
+            <Link href="/blog/blogPost/post-1">
+              <div className="relative">
+                <a href="#_" className="block overflow-hidden group rounded-xl">
+                  <img src="https://doctorzoo.com.br/wp-content/uploads/2015/03/cachorro_comendo.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
                 </a>
-                <div className="container inline-flex">
-                  <a href="#_" className="w-1/2 font-medium underline text-primary">Ler mais</a>
-                  <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                <div className="relative w-full mt-5">
+                  <a href="#" className="block pb-5 mb-3 border-b hover:underline">
+                    <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Qual a importância das rações de animais</h2>
+                  </a>
+                  <div className="container inline-flex">
+                    <a href="#_" className="w-1/2 font-medium underline text-primary">Ler mais</a>
+                    <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="relative">
-              <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://www.10wallpaper.com/wallpaper/1366x768/1311/black_cat-Animal_photo_wallpaper_1366x768.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
-              </a>
-              <div className="relative mt-5">
-                <a href="#" className="block pb-5 mb-3 border-b hover:underline">
-                  <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Animais de cor preta e seus preconceitos</h2>
+            </Link>
+
+            <Link href="/blog/blogPost/post-1">
+              <div className="relative">
+                <a href="#_" className="block overflow-hidden group rounded-xl">
+                  <img src="https://www.10wallpaper.com/wallpaper/1366x768/1311/black_cat-Animal_photo_wallpaper_1366x768.jpg" className="object-cover w-full h-56 transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
                 </a>
-                <div className="container inline-flex">
-                  <a href="#_" className="w-1/2 font-medium underline">Ler mais</a>
-                  <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                <div className="relative mt-5">
+                  <a href="#" className="block pb-5 mb-3 border-b hover:underline">
+                    <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Animais de cor preta e seus preconceitos</h2>
+                  </a>
+                  <div className="container inline-flex">
+                    <a href="#_" className="w-1/2 font-medium underline">Ler mais</a>
+                    <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="relative">
-              <a href="#_" className="block overflow-hidden group rounded-xl">
-                <img src="https://img.freepik.com/fotos-gratis/homem-veterinario-novo-com-o-estetoscopio-jogando-com-um-cao-pequeno-bonito-cinco-altos-fundo-branco-interior_139317-2119.jpg?size=626&ext=jpg" className="object-cover w-full h-64 transition-all duration-300 ease-out group-hover:scale-110" alt="" />
-              </a>
-              <div className="relative mt-5">
-                <a href="#" className="block pb-5 mb-3 border-b hover:underline">
-                  <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Levar seu bicinho no veterinario é bom?</h2>
+            </Link>
+
+            <Link href="/blog/blogPost/post-1">
+              <div className="relative">
+                <a href="#_" className="block overflow-hidden group rounded-xl">
+                  <img src="https://img.freepik.com/fotos-gratis/homem-veterinario-novo-com-o-estetoscopio-jogando-com-um-cao-pequeno-bonito-cinco-altos-fundo-branco-interior_139317-2119.jpg?size=626&ext=jpg" className="object-cover w-full h-64 transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                 </a>
-                <div className="container inline-flex">
-                  <a href="#_" className="w-1/2 font-medium underline">Ler mais</a>
-                  <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                <div className="relative mt-5">
+                  <a href="#" className="block pb-5 mb-3 border-b hover:underline">
+                    <h2 className="text-2xl font-bold text-black transition-colors duration-200 hover:text-deep-purple-accent-700">Levar seu bicinho no veterinario é bom?</h2>
+                  </a>
+                  <div className="container inline-flex">
+                    <a href="#_" className="w-1/2 font-medium underline">Ler mais</a>
+                    <span className="w-1/2 font-light text-right text-gray-400">19/09/2021</span>
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

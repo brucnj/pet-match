@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import logo from '../public/logo-preenchido.svg'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -16,10 +17,20 @@ const Footer = () => {
             </div>
             <nav class="col-span-1 md:col-span-1 lg:col-span-2 mx-auto">
               <p class="mb-3 text-xs font-semibold tracking-wider text-gray-500 uppercase">Menu</p>
-              <a href="#" class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Home</a>
-              <a href="#" class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Gatos</a>
-              <a href="#" class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Cachorros</a>
-              <a href="#" class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Blog</a>
+              <Link href="/">
+                <a class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Home</a>
+              </Link>
+              <Link href="/gatos">
+                <a class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Gatos</a>
+              </Link>
+
+              <Link href="/cachorros">
+                <a class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Cachorros</a>
+              </Link>
+
+              <Link href="/blog">
+                <a class="flex mb-3 text-sm font-medium text-gray-500 transition md:mb-2">Blog</a>
+              </Link>
             </nav>
             <div class="col-span-3">
               <span class="inline-flex justify-center w-full mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-end">

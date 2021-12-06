@@ -24,7 +24,7 @@ export default function Gatos() {
                 <div class="px-8 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
                     <div class="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3">
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden w-80 h-80 mx-auto group rounded-xl">
                                 <img src="https://images3.alphacoders.com/101/1014012.jpg" class="object-cover w-full h-full transition-all duration-300 ease-out sm:h-64 group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
