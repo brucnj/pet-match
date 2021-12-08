@@ -23,11 +23,11 @@ export default function Gatos() {
             </div>
 
             <div class="bg-white">
-                <div class="px-8 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
+                <div class="px-5 py-10 mx-auto lg:max-w-screen-xl sm:max-w-xl md:max-w-full sm:px-12 md:px-16 lg:py-20 sm:py-16">
                     <div class="grid gap-x-8 gap-y-12 sm:gap-y-16 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-10">
                         <Link href="/cachorros/detalhes-cachorro">
                             <div class="relative py-3">
-                                <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                                <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                     <img src="https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                                 </a>
                                 <div class="relative mt-5">
@@ -41,7 +41,7 @@ export default function Gatos() {
                         </Link>
                         
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                 <img src="https://images.unsplash.com/photo-1615751072497-5f5169febe17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
@@ -54,7 +54,7 @@ export default function Gatos() {
                         </div>
 
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                 <img src="https://images.unsplash.com/photo-1431613567644-1c0d5d7d1c8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
@@ -67,7 +67,7 @@ export default function Gatos() {
                         </div>
 
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                 <img src="https://images.unsplash.com/photo-1517854883321-ab2a463cce90?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
@@ -80,7 +80,7 @@ export default function Gatos() {
                         </div>
 
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                 <img src="https://images.unsplash.com/photo-1584453147785-df3e8fbcf048?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
@@ -93,7 +93,7 @@ export default function Gatos() {
                         </div>
 
                         <div class="relative py-3">
-                            <a href="#_" class="block overflow-hidden w-96 h-96 mx-auto group rounded-xl">
+                            <a href="#_" class="block overflow-hidden h-80 mx-auto group rounded-xl">
                                 <img src="https://images.unsplash.com/photo-1513189643435-49f97650b367?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="object-cover w-full h-full transition-all duration-300 ease-out group-hover:scale-110" alt="" />
                             </a>
                             <div class="relative mt-5">
